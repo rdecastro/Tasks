@@ -8,13 +8,14 @@ namespace Tasks.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
-
         public ActionResult Index()
         {
             return View();
         }
 
+        public ActionResult Signin()
+        {
+            return View();
+        }
     }
 }

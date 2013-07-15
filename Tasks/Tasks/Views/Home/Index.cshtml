@@ -1,5 +1,38 @@
 ﻿@{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Tasks";
 }
 
-<h2>Index</h2>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="brand" href="/">Tasks</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="/home">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+            <div class="well sidebar-nav">
+                <ul class="nav nav-list category">
+                    <li class="nav-header">Category</li>
+                    <li class="to-do"><a href="#">To Do</a></li>
+                    <li class="to-buy"><a href="#">To Buy</a></li>
+                    <li class="work"><a href="#">Work</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="span9">
+            <ul class="nav nav-list">
+                <li><input type="checkbox" value="done"> Task 1</li>
+                <li><input type="checkbox" value="done"> Task 2</li>
+                <li><input type="checkbox" value="done"> Task 3</li>
+            </ul>
+        </div>
+    </div>
+</div>
